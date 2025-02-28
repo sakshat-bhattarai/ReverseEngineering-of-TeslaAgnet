@@ -42,3 +42,5 @@ This analysis was conducted using a combination of **static and dynamic analysis
 - 🛠️ **Process Explorer** – Real-time process investigation  
 - 🛠️ **PESieve** – Memory scanning and malware unpacking  
 
+### Screenshots and Detailed Analysis  
+For detailed screenshots and step-by-step analysis, refer to the [Tesla-Agnet-TrojanHorse/TeslaAgent Documentation.docx]).  
