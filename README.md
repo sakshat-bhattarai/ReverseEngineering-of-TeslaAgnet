@@ -1,36 +1,57 @@
-🔥 Reverse Engineering Agent Tesla Malware
-🛠️ About This Project
-This repository provides a comprehensive reverse engineering analysis of Agent Tesla, a sophisticated Remote Access Trojan (RAT) and spyware. First detected in 2014, Agent Tesla has evolved from a simple keylogger to a powerful malware capable of:
+# 🔥 Reverse Engineering Agent Tesla Malware  
 
-Credential theft (email clients, browsers, VPNs, FTP apps)
-Keylogging & screenshot capture
-Data exfiltration (via HTTP, SMTP, FTP, Telegram)
-Remote system control
-Advanced anti-analysis techniques
-Using static and dynamic analysis, this project uncovers its obfuscation methods, persistence mechanisms, and communication protocols.
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/agent-tesla-analysis)
+![GitHub contributors](https://img.shields.io/github/contributors/yourusername/agent-tesla-analysis)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/agent-tesla-analysis)
+![GitHub stars](https://img.shields.io/github/stars/yourusername/agent-tesla-analysis?style=social)
+![GitHub license](https://img.shields.io/github/license/yourusername/agent-tesla-analysis)
 
-📌 Key Findings
-✔ Uses AutoIt for packing & obfuscation
-✔ Modifies registry keys for persistence
-✔ Intercepts and exfiltrates credentials
-✔ Communicates with C2 servers via HTTP, SMTP, FTP, Telegram
-✔ Employs anti-VM & anti-debugging techniques
+## 🛠️ About This Project  
+This repository provides an **in-depth reverse engineering analysis** of **Agent Tesla**, a highly evasive **Remote Access Trojan (RAT) and spyware**. Since its discovery in **2014**, Agent Tesla has evolved from a simple **keylogger** to a powerful malware capable of:  
 
-🧑‍💻 Methodology
-This analysis was conducted using both static and dynamic analysis techniques.
+- **Credential theft** from over 50 applications (browsers, email clients, FTP tools, VPNs)  
+- **Keylogging & screenshot capture** for data exfiltration  
+- **Remote system control** through C2 communication  
+- **Obfuscation & anti-analysis techniques** to evade detection  
 
-🔹 Static Analysis Tools: VirusTotal, PEStudio, dnSpy, AutoIt Extractor
-🔹 Dynamic Analysis Tools: ProcMon, RegShot, Process Explorer, PESieve
+This project explores **static and dynamic analysis** techniques to uncover its **obfuscation methods, persistence mechanisms, and network communication**.  
 
-🔐 Recommendations
-🔹 Use advanced behavioral analysis to detect suspicious activities
-🔹 Deploy phishing protection to block malicious emails
-🔹 Keep software updated to prevent exploitation
-🔹 Monitor network traffic for anomalies and block C2 communication
+---
 
-📚 References
-This project is based on research from cybersecurity reports, malware databases, and threat intelligence sources.
+## 📌 Key Findings  
+✔ **Uses AutoIt for packing & obfuscation**  
+✔ **Modifies registry keys for persistence**  
+✔ **Steals credentials & intercepts user activity**  
+✔ **Communicates with C2 servers via HTTP, SMTP, FTP, and Telegram**  
+✔ **Employs anti-VM & anti-debugging techniques**  
 
-🎯 Contribute & Collaborate
-Interested in malware analysis, reverse engineering, or threat intelligence? 🚀
-Feel free to fork this repo, open issues, or contribute!
+---
+
+## 🧑‍💻 Methodology  
+The analysis was conducted using a combination of **static and dynamic analysis** techniques.  
+
+### **📝 Static Analysis Tools**  
+- 🛠️ **VirusTotal** – Online malware detection  
+- 🛠️ **PEStudio** – PE file analysis  
+- 🛠️ **dnSpy** – .NET reverse engineering  
+- 🛠️ **AutoIt Extractor** – AutoIt decompiler  
+
+### **💻 Dynamic Analysis Tools**  
+- 🛠️ **ProcMon** – System process monitoring  
+- 🛠️ **RegShot** – Registry modification detection  
+- 🛠️ **Process Explorer** – Real-time process investigation  
+- 🛠️ **PESieve** – Memory scanning and malware unpacking  
+
+---
+
+## 📂 Folder Structure  
+```plaintext
+📁 agent-tesla-analysis/
+│── 📄 README.md              # Project documentation  
+│── 📂 Samples/               # Malware samples (if legal)  
+│── 📂 Static_Analysis/       # Static analysis findings  
+│── 📂 Dynamic_Analysis/      # Dynamic analysis results  
+│── 📂 Tools/                 # Scripts and tools used in analysis  
+│── 📂 Reports/               # Research documentation  
+│── 📂 Screenshots/           # Captured screenshots of analysis  
+│── LICENSE                  # Project license  
