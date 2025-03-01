@@ -1,7 +1,7 @@
 # 🕷️ Reverse Engineering Agent Tesla Malware  
 
 ## 🛠️ About This Malware Analysis  
-This repository provides an **in-depth reverse engineering analysis** of **Agent Tesla**, a sophisticated **Remote Access Trojan (RAT) 🦠 and spyware 🔍**. Since its discovery in **2014**, Agent Tesla has evolved from a basic **keylogger** into an advanced malware capable of:  
+This repository provides an **in-depth reverse engineering analysis** of **Agent Tesla**, a sophisticated **Remote Access Trojan (RAT) and spyware 🔍**. Since its discovery in **2014**, Agent Tesla has evolved from a basic **keylogger** into an advanced malware capable of:  
 
 - 🛑 **Credential theft** from browsers, email clients, FTP tools, and VPNs  
 - 🎥 **Keylogging & screenshot capture** for data exfiltration  
