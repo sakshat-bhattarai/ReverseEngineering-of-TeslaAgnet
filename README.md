@@ -44,5 +44,5 @@ This analysis was conducted using a combination of **static and dynamic analysis
 
 ### For Detailed Analysis, Please refer to the [Tesla-Agnet-TrojanHorse/TeslaAgent Documentation.pdf](https://github.com/sakshat-bhattarai/Tesla-Agnet-TrojanHorse/blob/main/TeslaAgent%20Documentation.pdf)
 
-### Malware Sample which was used in this project [Sample](https://bazaar.abuse.ch/sample/e17062f3e40417b32b67892e68cd134a6b5ea179e75182749ced9249fe049fa4)
+### Malware Sample which was used in this project [Tesla Agent](https://bazaar.abuse.ch/sample/e17062f3e40417b32b67892e68cd134a6b5ea179e75182749ced9249fe049fa4)
 
